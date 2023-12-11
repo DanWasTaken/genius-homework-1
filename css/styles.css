@@ -39,6 +39,10 @@ h6 {
   font-weight: 400;
 }
 
+h3 {
+  font-size: 22px;
+}
+
 h6 {
   color: var(--color-font-secondary);
   font-size: 12px;
@@ -97,6 +101,7 @@ header {
     border: 2px solid var(--color-input-border);
     color: var(--color-font-light);
     background-color: transparent;
+    font-size: 13px;
   }
 
   & input:focus {
