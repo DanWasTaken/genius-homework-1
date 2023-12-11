@@ -1,0 +1,125 @@
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+/* Play */
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+:root {
+  --color-accent: #2B7FFF;
+  --color-font-primary: #011C44;
+  --color-font-secondary: #4A4A4A;
+  --color-btn-text: #FFF;
+  --color-background-dark: #011F4A;
+  --color-font-light: #FFF;
+  --color-input-border: #747272;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-font-primary);
+}
+
+h1 {
+  font-family: "Play", sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+h2 {
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--color-font-primary);
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+h6 {
+  color: var(--color-font-secondary);
+  font-size: 12px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.accent {
+  color: var(--color-accent);
+}
+
+/* Header */
+
+header {
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(5px);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--color-font-primary);
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+.semibold-capitalize {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+/* Стилізація карток з секції "Чому люди обирають нас" */
+.card {
+  font-size: 18px;
+}
+
+
+/* Form */
+
+.form {
+  background-color: var(--color-font-primary);
+  color: var(--color-font-light);
+
+  & p,
+  a {
+    font-size: 12px;
+    color: var(--color-input-border);
+  }
+
+  & input {
+    border: 2px solid var(--color-input-border);
+    color: var(--color-font-light);
+    background-color: transparent;
+  }
+
+  & input:focus {
+    outline: transparent;
+    background-color: var(--color-input-border);
+  }
+
+  & input::placeholder {
+    color: var(--color-font-light);
+  }
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--color-font-primary);
+  color: var(--color-font-light);
+
+  & p {
+    font-size: 16px;
+  }
+
+  & a {
+    color: var(--color-font-light)
+  }
+}
